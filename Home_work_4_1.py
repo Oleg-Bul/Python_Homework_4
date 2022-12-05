@@ -7,4 +7,4 @@
 import math
 d = str(input('Введите точночть "d": '))
 count = len(str(d)) - 2
-print('Число пи с точность ', count, 'знаков после запятой = ', round(math.pi, count))
+print('Точность ', count, 'знаков после запятой = ', round(math.pi, count))
