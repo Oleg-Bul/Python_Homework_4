@@ -17,14 +17,12 @@ for i in range(1, k, 1):
     MnogoChlenList.insert(0, '*x**')
     MnogoChlenList.insert(0, randCoeff)
     MnogoChlenList.insert(0, ' + ')
-MnogoChlenList.remove(' + ')
-MnogoChlenList.append(' + ')
+MnogoChlenList += [MnogoChlenList.pop(0)]
 MnogoChlenList.append(str(randCoeff)+'x')
 MnogoChlenList.append(' + ')
 MnogoChlenList.append(random.randint(0, 100))
-
-# print(MnogoChlenList)
+#  print(MnogoChlenList)
 MnogoChlen = ("".join(map(str, MnogoChlenList)))
 print(MnogoChlen)
 
-# Очень не оптимально, но работает)
+#  Очень не оптимально, но работает)
