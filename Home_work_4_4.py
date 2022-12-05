@@ -25,5 +25,5 @@ MnogoChlenList.append(random.randint(0, 100))
 MnogoChlen = ("".join(map(str, MnogoChlenList)))
 print(MnogoChlen)
 with open('file4.txt', 'a') as f:
-    f.write(str(MnogoChlen))
+    f.write(f"\n{ str(MnogoChlen)}")
 #  Очень не оптимально, но работает)

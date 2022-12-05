@@ -19,6 +19,6 @@ b = sympy.sympify(b)
 # print(type(a))  #  <class 'sympy.core.add.Add'>
 ans3 = sympy.sympify(a+b)
 with open('file3.txt', 'a') as f:
-    f.write(str(ans3))
+    f.write(f"\n{ str(ans3)}")
 f.close
 print(ans3)
