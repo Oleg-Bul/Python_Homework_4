@@ -27,3 +27,16 @@ print(MnogoChlen)
 with open('file4.txt', 'a') as f:
     f.write(f"\n{ str(MnogoChlen)}")
 #  Очень не оптимально, но работает)
+
+
+# Решение от преподователя (функции в файле function)
+
+
+# from functions import create_pol_file
+# from functions import create_polinom
+
+# k = int(input())
+
+# print(f'Сгенерированый полином {create_polinom(k)}')
+# print(f'Сгенерированый полином {create_polinom(k, False)}')
+# create_pol_file(create_polinom(k), 'NewFile')
